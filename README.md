@@ -22,7 +22,7 @@ More to come. PRs welcome — see [Contributing](#contributing).
 ### One-liner (recommended)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/loyaldept/siml-skills/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/SIML-Inc/siml-skills/main/install.sh | bash
 ```
 
 This copies every skill in this repo into `~/.claude/skills/`. Re-run any time to pull updates.
@@ -30,7 +30,7 @@ This copies every skill in this repo into `~/.claude/skills/`. Re-run any time t
 ### Manual
 
 ```bash
-git clone https://github.com/loyaldept/siml-skills.git
+git clone https://github.com/SIML-Inc/siml-skills.git
 cd siml-skills
 mkdir -p ~/.claude/skills
 cp -R skills/* ~/.claude/skills/

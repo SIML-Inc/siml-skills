@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-REPO_URL="https://github.com/loyaldept/siml-skills.git"
+REPO_URL="https://github.com/SIML-Inc/siml-skills.git"
 TARGET_DIR="${HOME}/.claude/skills"
 TMP_DIR="$(mktemp -d -t siml-skills-XXXXXX)"
 
