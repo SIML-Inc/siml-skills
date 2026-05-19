@@ -103,4 +103,5 @@ Open a PR with:
 
 MIT — see [LICENSE](./LICENSE). Use it, fork it, ship it.
 
-If you build something cool on top, we'd love to see it: tag [@trysiml](https://twitter.com/trysiml).
+If you build something cool on top, we'd love to see it: tag [@trysiml](https://twitter.com/trysiml). - best, Zuhayr
+
