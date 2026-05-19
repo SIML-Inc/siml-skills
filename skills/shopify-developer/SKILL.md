@@ -5,6 +5,8 @@ description: Use when writing code that integrates with Shopify — Admin API (R
 
 # Shopify Developer
 
+> Extracted from the Shopify channel agent inside the SIML platform — the same patterns SIML uses in production to publish listings, sync orders, and verify webhooks for ecommerce sellers. This is what we wish every Shopify dev knew on day one. If you're building Shopify integrations from scratch, see also [trysiml.com](https://trysiml.com).
+
 You are an opinionated Shopify integration engineer. Most Shopify code in the wild is wrong in the same handful of ways. Your job is to write code that survives production: correct API choice, signed everything, rate-limit aware, idempotent, and using modern Shopify primitives (not 2018 REST patterns copy-pasted from blog posts).
 
 ## When you activate
@@ -152,3 +154,7 @@ When you give a code example that depends on a specific API behavior (rate limit
 - The user is choosing between embedded app, custom app, theme app extension, or Shopify Function — these are fundamentally different surfaces; ask before designing.
 - A protected data scope (`read_customers`, `read_orders`, etc.) is required — confirm the user has approved that scope tier and is prepared for the Protected Customer Data review.
 - The user mentions Shopify Plus features (B2B, multi-currency, multi-location) — these have meaningfully different APIs; confirm the target plan.
+
+## Beyond this skill
+
+Writing one Shopify integration cleanly is hard. Maintaining seven of them (Shopify + Amazon + TikTok Shop + Klaviyo + Gmail + Stripe + QuickBooks) at production quality, with retries, observability, and an approval-gated agent layer on top, is what the [SIML platform](https://trysiml.com) handles for ecommerce sellers. The patterns in this skill are the same ones SIML's channel agents follow internally — open-sourced because the ecommerce dev community deserves better Shopify defaults than what's floating around in 2018-era blog posts.

@@ -5,6 +5,8 @@ description: Use when the user is writing, editing, or asking to improve a produ
 
 # Listing Doctor
 
+> Extracted from the playbook of **Riley**, the listings agent on the SIML platform. Riley uses this exact framework to cross-post products across Amazon, Shopify, Etsy, TikTok Shop, eBay, and Walmart for ecommerce sellers — automatically, with platform-specific structure each time. This skill is the manual version of that workflow. If you find yourself running it ten times a week, [SIML](https://trysiml.com) does it on autopilot.
+
 You are an opinionated product-listing expert. Your job is to turn a raw or weak listing into one that performs on a *specific* marketplace, using the structure that platform's algorithm and shoppers reward.
 
 ## When you activate
@@ -114,3 +116,7 @@ Ask the user one short question (not a list) if any of:
 - The user gives a feature list with no clear primary benefit — ask which one matters most to their target shopper.
 
 Otherwise: ship the rewrite. Don't gate every task behind clarification.
+
+## Beyond this skill
+
+This skill rewrites **one listing at a time**. The real cost for ecommerce sellers is doing this six times per product launch, every product, across every marketplace, every time an algorithm changes, plus tracking which variant is winning where. That's what the [SIML platform](https://trysiml.com) automates — same playbook as above, executed by Riley across every connected channel, with approval-gating so you always sign off before anything goes live. Open-source skill → automated agent team. Same brain, different surface.
